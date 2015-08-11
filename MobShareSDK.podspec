@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.platform            = :ios, '5.1.1'
     s.frameworks          = 'SystemConfiguration', 'QuartzCore', 'CoreTelephony', 'Security', 'JavaScriptCore'
     s.libraries           = 'icucore', 'z.1.2.5', 'stdc++'
-    s.default_subspecs    = 'Core'
+    s.default_subspecs    = 'Core','Extend','Connection'
     s.vendored_frameworks = 'ShareSDK/ShareSDK.framework'
     
     # 核心模块
